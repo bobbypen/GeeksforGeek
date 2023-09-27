@@ -1,0 +1,51 @@
+#flex{
+    background-color: aliceblue; 
+     
+   
+    display: flex;
+     flex-wrap: wrap;
+     flex-grow: 1;
+     height: 100px;
+     width: 100%;
+     justify-content: center;
+   align-items: center;
+   justify-content: space-evenly;
+    
+}
+
+
+.box{
+ 
+    height: 100%; 
+   width: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* flex-flow: wrap; */
+   /* flex: content; */
+   
+
+  
+   
+
+   
+  
+}
+
+.box1{
+    background: steelblue;
+}
+
+
+.box2{
+    background:greenyellow;
+}
+
+
+.box3{
+    background: #000;
+}
+
+.img{
+    width: inherit;
+}

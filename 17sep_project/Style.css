@@ -1,0 +1,134 @@
+*{
+   
+ 
+
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color:#abd1ef ;
+    display: flex;
+    width: auto;
+    height: auto;
+
+}
+header nav ul{
+    display: flex;
+      
+    list-style: none;
+    /* flex-direction: row; */
+        
+}
+
+header nav ul li{
+    margin-left: 25px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 13px;
+
+       
+
+}
+
+
+header img{
+    margin-left: 12px;
+}
+
+#Banner{
+    background-image: url(/bg.jpg);
+    /* backface-visibility: visible; */
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+
+#product-text{
+   text-align: center;
+   font-size: xx-large;
+   font-weight: bolder;
+   margin-top: 10px ;
+   
+}
+
+#product{
+     display: flex;
+     flex-wrap: wrap;
+     margin-left: 12%;
+     margin-top: 25px;
+     justify-content: center;
+    /* display: flexbox; */ 
+    
+}
+
+.product-box{
+   
+    margin-right: 50px;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+@media only screen and (max-width: 910px ) {
+    .product-box{
+        margin-left: 9%;
+        margin-right: 50px;
+        margin-bottom: 25px;
+    }
+
+
+    @media only screen and (max-width: 768px ) {
+        header nav ul{
+            display: flex;
+              
+            list-style: none;
+            flex-direction:column;
+
+        }
+        ul{
+            margin-left: 16%;
+        }
+
+        header img{
+            width: auto;
+            height: 10%;
+        }
+
+    #Banner{
+        background-image: url(/bg.jpg);
+        background-position :37%;
+        background-attachment:fixed;
+        background-size: cover;
+       
+        
+      
+    }
+  }
+
+  button{
+    float: right;
+    padding: 8px;
+    font-weight: 200;
+    background-color: rgb(189, 141, 235);
+    border-radius: 20px;
+    border: 2px solid rgb(245, 236, 236);
+    transition: 200ms;
+  }
+
+  button:hover{
+    background-color:#2fb3e8 ;
+    transform: scale(1.1);
+    width: 30%;
+  }
+
+
+  span{
+    font-weight: bolder;
+    
+    
+  }
+
+
+
