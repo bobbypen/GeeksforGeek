@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background: #000;
+    color: white;
+    }
+
+#super{
+   display: flex;
+   margin-top: 150px;
+   justify-content: center;
+   align-items: center;
+}
+
+#container{
+    height: 60vh;
+    width:60vw;
+    border: 2px solid rgb(255, 255, 255);
+    
+}
+
+
+.heading{
+
+    text-align: center;
+}
+
+
+.head>p{
+    /* font-size :18pt ; */
+    float: right;
+
+}
+
+.line{
+    border: 1px solid white ;
+
+}
+
+button{
+color: #000;
+background: white;
+}
+
+
+.left{
+    float: left;
+    background: #000;
+    border: 1px white solid;
+    margin-left: 80px;
+    margin-top: 80px;
+    width: 200px;
+    height: 200px;
+
+    justify-content: center;
+   
+
+}
+
+.check{
+    margin-left: 25%;
+    margin-top: 16px;
+    
+    padding: 10px;
+    width: 100px;
+}
+
+
+.scorebox{
+
+    border: 1px white solid;
+    height: 50%;
+    margin: 10px;
+
+
+
+}
+
+
+.right{
+    float: right;
+    background: #000;
+    border: 1px white solid;
+
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+
+    float: right;
+    background: #000;
+    border: 1px white solid;
+    margin-left: 80px;
+    margin-top: 80px;
+    width: 200px;
+    height: 200px;
+
+    justify-content: center;
+
+}
+
+
+
+.heads{
+margin-bottom: 80px;
+padding :10px;
+}
+
+
+.head{
+    height: 35px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box>span{
+    color: black;
+    background: white;
+    font-size:50px;
+}
+/* 
+left   */
+
+
+

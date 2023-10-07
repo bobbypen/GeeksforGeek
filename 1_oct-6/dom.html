@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Click Actions</title>
+</head>
+<body>
+    <h1>Click on Images:</h1>
+    
+    <!-- Image 1 - Alert on click -->
+    <img src="image1.jpg" alt="Image 1" style="width: 200px;" onclick="alert('You clicked Image 1!')">
+
+    <!-- Image 2 - Go to a link on click -->
+    <a href="https://www.google.com">
+        <img src="image2.jpg" alt="Image 2" style="width: 200px;">
+    </a>
+
+    <!-- Image 3 - Remove on click -->
+    <img src="image3.jpg" alt="Image 3" style="width: 200px;" onclick="removeImage(this)">
+
+    <!-- Image 4 - Change source on click -->
+    <img src="image4.jpg" alt="Image 4" style="width: 200px;" onclick="changeImageSource(this)">
+
+    <script>
+        // Function to remove an image on click
+        function removeImage(imgElement) {
+            imgElement.style.display = "none";
+        }
+
+        // Function to change the source of an image on click
+        function changeImageSource(imgElement) {
+            imgElement.src = "newImage.jpg";
+        }
+    </script>
+</body>
+</html>
+
+
+
