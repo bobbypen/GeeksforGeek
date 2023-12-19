@@ -6,10 +6,10 @@ export function Profile() {
         src="https://i.imgur.com/MK3eW3As.jpg"
         alt="Katherine Johnson"
       />
-    );
+    ); 
   }
   
-  export default function gallery() {
+  export default function Gallery() {
     return (
       <section>
         <h1>Amazing scientists</h1>
